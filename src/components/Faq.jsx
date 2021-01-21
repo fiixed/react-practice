@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Faq extends Component {
-    render() {
-        return (
-            <div>
-                <h1>FAQ Page</h1>
-            </div>
-        )
-    }
+export default function Faq() {
+    return (
+        <>
+            <h1>FAQ page</h1>
+        </>
+    )
 }
+

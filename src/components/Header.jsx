@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react'
 
 import {
-    NavLink 
+    NavLink
   } from 'react-router-dom';
 
-export default class Header extends Component {
-    render() {
-        return (
-            <>
+export default function Header() {
+    return (
+        <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <NavLink className="navbar-brand" exact to="/">Header</NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +33,6 @@ export default class Header extends Component {
                 </div>
             </nav>
         </>
-        )
-    }
+    )
 }
+
